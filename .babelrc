@@ -1,0 +1,4 @@
+{
+  // preset을 사용하겠다. 
+  "presets": ["@babel/preset-env"]
+}
