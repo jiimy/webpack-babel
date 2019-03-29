@@ -9889,7 +9889,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _world__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./world */ "./src/js/world.js");
 
 
-document.getElementById('demo').innerHTML = "".concat(_hello__WEBPACK_IMPORTED_MODULE_0__["default"], ", ").concat(_world__WEBPACK_IMPORTED_MODULE_1__["default"], "!");
+document.getElementById('demo').innerHTML = "".concat(_hello__WEBPACK_IMPORTED_MODULE_0__["default"], ", ").concat(_world__WEBPACK_IMPORTED_MODULE_1__["default"], "!"); // arrow
+
+var word = function word(a) {
+  console.log("arrow func test+ ".concat(a));
+};
+
+word('aa');
 
 /***/ }),
 
@@ -9902,7 +9908,31 @@ document.getElementById('demo').innerHTML = "".concat(_hello__WEBPACK_IMPORTED_M
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ('Hello');
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+var Header =
+/*#__PURE__*/
+function () {
+  function Header(width, height) {
+    _classCallCheck(this, Header);
+
+    width = this.width;
+    height = his.height;
+  }
+
+  _createClass(Header, [{
+    key: "click",
+    value: function click() {}
+  }]);
+
+  return Header;
+}();
+
+/* harmony default export */ __webpack_exports__["default"] = ('Header');
 
 /***/ }),
 
